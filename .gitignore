@@ -104,5 +104,4 @@ dist
 .tern-port
 
 # local package
-local/*
-!local/package.json
+

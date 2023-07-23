@@ -18,7 +18,8 @@
     "lint": "eslint . --ignore-path .eslintignore && tsc --noEmit",
     "lint:fix": "eslint . --ignore-path .eslintignore --fix",
     "prettier": "prettier --check --ignore-path .eslintignore '**'",
-    "prettier:fix": "prettier --write --ignore-path .eslintignore '**'"
+    "prettier:fix": "prettier --write --ignore-path .eslintignore '**'",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
